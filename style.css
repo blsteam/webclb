@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Fredoka+One&family=Nunito:wght@400;500;600&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;500&family=Rubik+Glitch&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: url("https://cdn.glitch.global/90d783c8-f43e-4085-b3c2-29436d313be1/z3506516239514_d8f0c3abfab7dc2083475df42dbd2f41.jpg?v=1656840049964");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+    transition: 1s ease-in;
+}
+h1{
+    color: white;
+}
+nav{
+    position: absolute;
+    transition: 0.5s;
+}
+
+.nav-item{
+    color: blue;
+    font-weight: 600;
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+}
+.main-carousel{
+    top: 90px;
+    left: 0;
+    right: 0;
+    margin-bottom: 200px;
+    position: absolute;
+}
+.cell{
+    width: 70%;
+    height: 500px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.cell img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.footer-carousel{
+    height: 16rem;
+    background: transparent;
+    width: 100%;
+    position: relative;
+}
+
+.container p{
+    font-size: 18px;
+    color: #ccc;
+}
+.loginForm{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.wrapper{
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    padding: 20px;    
+    background-color: #ccc;
+    border-radius: 10px;       
+}
+.input-field{
+    font-size: 18px;
+}
+.form-controls{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    height: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.form-controls:hover, .form-controls:focus{
+    border: 1px solid orange;
+    
+}
+.btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.wrapper p{
+    margin-top: 10px;    
+}
+.wrapper a{
+    text-decoration: none; 
+}
+.wrapper h1{
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+.dark{
+    background-color:#212529;
+}
+p{
+    margin-bottom: 0px;
+}
+#footer
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    color: rgb(229, 229, 229);
+    font-size: 14px;
+    font-weight: 600;
+    border-top: 1px solid #ccc;
+    margin-bottom: 0px auto;
+    text-align: center;
+    line-height: 30px;
+  }
+.footer-title>h6{
+    color: white;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;    
+}
+
+.navbar.bg-dark>ul#datasheets{
+    background-color: #212529;
+}
+
+ul#datasheets{
+    transition: 0.5s;
+}
+
+.swal-icon{
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    border-radius: 50%;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box; 
+}
+
+iframe{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+span.text-brand{
+    /* font-family: 'Rubik Glitch', cursive; */
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 37px;
+    margin-left: 10px;
+    margin-bottom: -3px;
+    transition: .5s;
+}
+
+.orange{
+    color: rgb(227, 145, 87);
+    transition: .5s;
+}

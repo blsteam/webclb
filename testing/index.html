@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<!-- Meta Image -->
+<meta property = 'og:image' content=''>
+<title>Kay Chip Coder</title>
+<!-- Bootstrap 5 -->
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+<!-- Icon -->
+<link rel='icon' href='favicon.ico'>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <form method="post">
+                <h2>Auto send email</h2>
+                <div class="form-field">
+                    <input type="text" name="name" id="name" autocomplete="off" placeholder="Your name here...">
+                </div>
+                <div class="form-field">
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Your email here...">
+                </div>
+                <div class="form-field">
+                    <input type="text" name="subject" id="subject" autocomplete="off" placeholder="Your subject here...">
+                </div>
+                <form-field>
+                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                </form-field>
+                <button class="btn btn-success" id="btn">Gửi</button>
+            </form>
+        </div>
+    </div>
+<!-- Javascript -->
+<script src="main.js"></script>
+<!-- SMTPJS -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<!-- Bundle -->
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' crossorigin='anonymous'></script>
+<!-- Separate -->
+<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js' integrity='sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p' crossorigin='anonymous'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js' integrity='sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF' crossorigin='anonymous'></script>
+<!-- JQuery -->
+<script src='https://code.jquery.com/jquery-3.6.0.slim.js' integrity='sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=' crossorigin='anonymous'></script>
+</body>
+</html>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body,html{
+        height: auto;
+    }
+    .container{
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    input, textarea{
+        width: 100%;
+        margin: 5px 0;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        padding: 3px 10px;
+        outline: none;
+    }
+</style>
